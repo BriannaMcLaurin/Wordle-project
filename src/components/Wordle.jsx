@@ -198,7 +198,6 @@ function Wordle() {
                 e.target.focus();
             }}
             onKeyDown={handleKeyDown}>
-                <h1 className="title"> Wordle</h1>
                 <div className={`notification ${solutionFound && "noification--green"}`}>
                     {notification}
                 </div>
